@@ -10,11 +10,23 @@ img{
     
 }
 
+body{
 
+   background: #121214;
 
+}
 
+h1{
+    color: #E1E1E6;
+}
 
+h2{
+    color: #7C7C8A;
+}
 
+#blocos p{
+ color: #E1E1E6;   
+}
 
 
 
