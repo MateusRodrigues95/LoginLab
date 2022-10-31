@@ -47,13 +47,31 @@ h2{
 }
 
 #blocos p{
-    display: flex;
+    
+    width: 1;
+    color: #E1E1E6; 
+    font-weight: semibold;
+    font-size: 16;
+    font-family:inter;
+}
+
+#blocos{
+
     width:400px;
     height:289px;
-    color: #E1E1E6; 
+    margin-top:32px;
 
 }
 
+input{
+    width:400px;
+    height:48px;
+    border-radius: 4px;
+    margin-top: 12px;
+    background: #202024;
+    color: #7C7C8A;
+
+}
 
 #footer{
     display: flex  ;
@@ -61,8 +79,36 @@ h2{
     flex-direction: column; 
 }
 
-#blocos{
-   
+#senha{
+    margin-top: 16px;
+}
+
+#lembrar {
+    margin-top: 16px ;
+
+}
+    
+#lembrar a{
+
+    color: #C4C4CC;
 }
 
 
+#lembrar button{
+
+    margin-top: 24px;
+    width: 400px;
+    height: 43px;
+    background-color: #81D8F7;
+    border-radius: 4px;
+    color: #1E1E1E;
+}
+
+
+#footer{
+    flex-direction: column;
+    margin-top: 32px;
+    color: #7C7C8A;
+    font-family: inter;
+    font-weight: semibold;
+}
