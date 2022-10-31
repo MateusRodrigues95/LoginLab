@@ -44,24 +44,25 @@ h2{
     color: #7C7C8A;
     font-family: inter;
     
-    
-    
 }
 
 #blocos p{
- color: #E1E1E6;   
+    display: flex;
+    width:400px;
+    height:289px;
+    color: #E1E1E6; 
+
 }
 
 
 #footer{
     display: flex  ;
     margin-top: 10px;
-    flex-direction: column;
-
+    flex-direction: column; 
 }
 
-
-
-
+#blocos{
+   
+}
 
 
