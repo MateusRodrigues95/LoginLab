@@ -15,7 +15,6 @@
 
 img{ 
     display: flex;
-    margin-top: 208px;
     width: 106.31px;
     height: 93.78px;
     
@@ -27,7 +26,10 @@ body{
     flex-direction: column;
     align-items: center;
     background: #121214;
-
+    margin-top: 240px;
+    margin-bottom: 208px;
+    margin-left: 520px;
+    margin-right: 520px;
 }
 
 h1{
@@ -88,10 +90,13 @@ input{
 
 }
     
-#lembrar a{
-
+#footer a{
+    margin-top: 32px;
     color: #C4C4CC;
+    font-family: inter;
+    font-weight: semibold;
 }
+
 
 
 #lembrar button{
@@ -101,7 +106,7 @@ input{
     height: 43px;
     background-color: #81D8F7;
     border-radius: 4px;
-    color: #1E1E1E;
+    color: #141412;
 }
 
 
@@ -109,6 +114,8 @@ input{
     flex-direction: column;
     margin-top: 32px;
     color: #7C7C8A;
-    font-family: inter;
-    font-weight: semibold;
+    flex-direction: column;
+    align-items: center;
+    
+    
 }
